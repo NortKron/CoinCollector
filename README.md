@@ -1,4 +1,4 @@
-Simple mobile 2D application on Unity
+Simple mobile 2D application on Unity 2020.3.41f1
 1. Coins and spikes on field;
 2. When you click on any point on the screen - the green circle moves to the place of the click;
 3. With several clicks – the circle moves one by one along all clicked points;
