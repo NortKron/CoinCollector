@@ -51,7 +51,6 @@ public class GameController : MonoBehaviour, IPointerDownHandler
     private Sprite spriteMain;
 
     private int coins = 0;
-
     private bool isFIrstStart = true;
 
     private Coroutine coroutineMoving;
@@ -170,8 +169,8 @@ public class GameController : MonoBehaviour, IPointerDownHandler
         Time.timeScale = 0;
         panelStart.SetActive(true);
 
-        listSpots = new();
-        listLines = new();
+        listSpots = new List<GameObject>();
+        listLines = new List<GameObject>();
 
         startPosition = player.transform.position;
         startPlayerPosition = player.transform.position;

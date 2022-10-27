@@ -7,7 +7,7 @@ public class ListSpikes : MonoBehaviour
 
     void Start()
     {
-        listSpikes = new();
+        listSpikes = new List<SpikeScript>();
 
         foreach (SpikeScript child in transform.GetComponentsInChildren<SpikeScript>())
         {

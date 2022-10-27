@@ -10,7 +10,7 @@ public class ListCoins : MonoBehaviour
 
     void Start()
     {
-        listCoins = new();
+        listCoins = new List<CoinScript>();
 
         controller = GameObject.Find("Panel UI");
 
